@@ -1,0 +1,12 @@
+{
+  "name": "Fikria Dental Clinic",
+  "tagline": "Modern Dentistry, Genuinely Caring",
+  "poweredBy": "Fikria Innovations",
+  "about": "Fikria Dental Clinic is a modern dental practice offering general, cosmetic, orthodontic, pediatric, and specialist dental care under one roof, supported by an AI receptionist available around the clock for questions and appointment booking.",
+  "address": "221 Marina Boulevard, Velankanni, Tamil Nadu",
+  "phone": "+91 90000 00000",
+  "whatsapp": "+91 90000 00000",
+  "email": "hello@fikriadental.example",
+  "values": ["Patient comfort first", "Transparent treatment plans", "Modern, gentle techniques", "No unnecessary procedures"],
+  "note": "This is a portfolio demonstration clinic built by Fikria Innovations to showcase the AI Receptionist platform. All names, numbers, and details are illustrative."
+}

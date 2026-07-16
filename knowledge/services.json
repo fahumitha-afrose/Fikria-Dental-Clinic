@@ -1,0 +1,8 @@
+[
+  { "category": "General Dentistry", "services": ["Dental Check-up", "Cleaning", "Tooth Filling", "Extraction", "Preventive Dentistry"] },
+  { "category": "Orthodontics", "services": ["Braces", "Invisalign", "Teeth Alignment", "Jaw Alignment"] },
+  { "category": "Endodontics", "services": ["Root Canal", "Emergency Tooth Pain", "Dental Infection"] },
+  { "category": "Periodontics", "services": ["Scaling", "Root Planing", "Gum Disease", "Dental Implants"] },
+  { "category": "Pediatric Dentistry", "services": ["Children Dentistry", "Baby Teeth", "Fluoride", "Dental Sealants"] },
+  { "category": "Cosmetic Dentistry", "services": ["Smile Makeover", "Teeth Whitening", "Veneers", "Smile Design"] }
+]

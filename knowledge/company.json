@@ -1,0 +1,30 @@
+{
+  "name": "Fikria",
+  "tagline": "Turning Ideas into Intelligent Solutions",
+  "industry": "AI & Digital Innovation Agency",
+  "about": "Fikria is an AI-first Digital Innovation Agency dedicated to helping businesses transform ideas into intelligent digital solutions. We combine Artificial Intelligence, Software Development, Data Analytics, Creative Design, Branding, Content Creation, and Business Strategy to help organizations build stronger digital experiences.",
+  "mission": "To empower businesses with intelligent technology, creative thinking, and data-driven solutions that solve real-world problems and create sustainable growth.",
+  "vision": "To become a globally trusted AI innovation company known for building intelligent, scalable, and meaningful digital solutions that improve the way businesses operate.",
+  "story": "Fikria was founded on the belief that every business deserves access to intelligent technology regardless of its size. Many businesses struggle because they need different agencies for websites, branding, AI, marketing, analytics, and creative services — leading to communication gaps, inconsistent quality, and higher costs. Fikria solves this by bringing technology, creativity, and business strategy together under one roof.",
+  "values": [
+    "Innovation",
+    "Creativity",
+    "Integrity",
+    "Transparency",
+    "Quality",
+    "Collaboration",
+    "Customer Success",
+    "Continuous Learning"
+  ],
+  "developmentProcess": [
+    { "step": "Discovery Meeting", "description": "Understand business goals." },
+    { "step": "Requirement Analysis", "description": "Identify business challenges." },
+    { "step": "Planning", "description": "Define scope, timeline, and technologies." },
+    { "step": "Design", "description": "Create UI/UX and system architecture." },
+    { "step": "Development", "description": "Build the application using modern technologies." },
+    { "step": "Testing", "description": "Quality assurance and bug fixing." },
+    { "step": "Deployment", "description": "Launch the solution." },
+    { "step": "Support & Maintenance", "description": "Continuous improvements and updates." }
+  ],
+  "pricingPolicy": "Every project is unique. Pricing depends on requirements, features, complexity, timeline, and business goals. Encourage users to schedule a consultation for a customized quotation. Never invent or state specific prices."
+}

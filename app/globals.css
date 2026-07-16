@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap");
+@import "tailwindcss";
+
+/*
+  Fikria Dental — design tokens
+  Palette: porcelain (bg), ink (fg), deep-teal (primary), clinical-blue (secondary), mist (border)
+  Type: Fraunces (display, restrained) / Inter (body, UI) / IBM Plex Mono (appointment codes, data)
+  Signature: the "smile-arc" — a thin arcing rule used under headings and as the
+  receptionist launcher glyph, standing in for both a smile and a calm pulse line.
+*/
+
+:root {
+  --background: #f7f9fa;      /* porcelain */
+  --foreground: #12232e;      /* ink */
+  --card: #ffffff;
+  --border: #e3e9ec;          /* mist */
+  --primary: #0e6f6b;         /* deep teal */
+  --primary-foreground: #ffffff;
+  --secondary: #2e5fa3;       /* clinical blue */
+  --accent: #4fa9a4;          /* soft teal tint, hover/highlight only */
+  --muted: #5b7480;
+  --success: #1f8a5f;
+  --warning: #b8791f;
+  --danger: #b3402f;
+}
+
+.dark {
+  --background: #0d1a1f;
+  --foreground: #eaf1f1;
+  --card: #12262b;
+  --border: #1e3439;
+  --primary: #4fb3ad;
+  --primary-foreground: #0d1a1f;
+  --secondary: #6f9bd6;
+  --accent: #2e5f5b;
+  --muted: #8fa8ad;
+  --success: #4bb98a;
+  --warning: #d9a34e;
+  --danger: #d9705c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+code, .font-mono, .appointment-code {
+  font-family: var(--font-mono);
+}
+
+/* Signature element: the smile-arc — a thin arcing underline/divider used
+   beneath section eyebrows and headings, and as the receptionist launcher glyph. */
+.smile-arc {
+  display: block;
+  width: 64px;
+  height: 12px;
+}
+.smile-arc path {
+  fill: none;
+  stroke: var(--primary);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

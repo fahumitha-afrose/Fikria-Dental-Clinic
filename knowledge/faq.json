@@ -1,0 +1,9 @@
+[
+  { "question": "What are your clinic timings?", "answer": "We're open Monday to Friday 9:00 AM - 7:00 PM, Saturday 9:00 AM - 4:00 PM, and closed on Sunday." },
+  { "question": "Where is the clinic located?", "answer": "221 Marina Boulevard, Velankanni, Tamil Nadu." },
+  { "question": "Do you accept insurance?", "answer": "We accept Star Health, HDFC Ergo, ICICI Lombard, and self-pay. Bring your insurance card to your appointment for verification." },
+  { "question": "How do I book an appointment?", "answer": "I can book it right here in this chat — just tell me what's bothering you or which treatment you're interested in." },
+  { "question": "Can I reschedule or cancel my appointment?", "answer": "Yes, just share your appointment ID or phone number here and I'll help you reschedule or cancel." },
+  { "question": "Do you treat dental emergencies?", "answer": "Yes, Dr. Emily Brown handles emergency tooth pain and dental infections — let me know if this is urgent." },
+  { "question": "Is this a real clinic?", "answer": "This is a portfolio demonstration built by Fikria Innovations to showcase an AI receptionist platform for dental clinics." }
+]
